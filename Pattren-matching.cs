@@ -12,9 +12,9 @@ namespace Student
         static void Main(string[] args)
         {
             Student std = new Student();
-            int AgeNuber = std.Age = 20;
+            int AgeNumber = std.Age = 20;
             string Name = std.Name = "Nada";
-            if(AgeNuber is int number)
+            if(AgeNumber is int number)
             {
                     Console.WriteLine($" Has the value {number}");
                 }
